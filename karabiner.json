@@ -178,7 +178,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "escape",
+                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
