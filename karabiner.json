@@ -211,7 +211,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "3"
+                                        "key_code": "1"
                                     }
                                 ],
                                 "type": "basic"
@@ -257,7 +257,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "1"
+                                        "key_code": "3"
                                     }
                                 ],
                                 "type": "basic"
