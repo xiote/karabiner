@@ -16,6 +16,43 @@
                 },
                 "rules": [
                     {
+                        "description": "one", 
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "1",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "one_mode",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "one_mode",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "1"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Capslock", 
                         "manipulators": [
                             {
@@ -58,7 +95,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "capslock_mode",
+                                        "name": "one_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -81,7 +118,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "capslock_mode",
+                                        "name": "one_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -104,7 +141,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "capslock_mode",
+                                        "name": "one_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -127,7 +164,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "capslock_mode",
+                                        "name": "one_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -150,7 +187,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "capslock_mode",
+                                        "name": "one_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -173,7 +210,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "capslock_mode",
+                                        "name": "one_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -196,7 +233,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "capslock_mode",
+                                        "name": "one_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -219,7 +256,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "capslock_mode",
+                                        "name": "one_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -242,7 +279,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "capslock_mode",
+                                        "name": "one_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -265,7 +302,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "capslock_mode",
+                                        "name": "one_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
