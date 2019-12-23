@@ -1159,7 +1159,8 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "semicolon"
+                                    "key_code": "semicolon",
+                                    "modifiers": {
                                     }
                                 },
                                 "to": [
@@ -1179,7 +1180,9 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "semicolon"
+                                    "key_code": "semicolon",
+                                    "modifiers": {
+                                    }
                                 },
                                 "to": [
                                     {
