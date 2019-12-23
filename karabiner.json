@@ -16,11 +16,11 @@
                 },
                 "rules": [
                     {
-                        "description": "one", 
+                        "description": "TwoMode", 
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "1",
+                                    "key_code": "2",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -30,7 +30,7 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "one_mode",
+                                            "name": "two_mode",
                                             "value": 1
                                         }
                                     }
@@ -38,14 +38,14 @@
                                 "to_after_key_up": [
                                     {
                                         "set_variable": {
-                                            "name": "one_mode",
+                                            "name": "two_mode",
                                             "value": 0
                                         }
                                     }
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "1"
+                                        "key_code": "2"
                                     }
                                 ],
                                 "type": "basic"
@@ -95,7 +95,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "one_mode",
+                                        "name": "two_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -118,7 +118,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "one_mode",
+                                        "name": "two_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -141,7 +141,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "one_mode",
+                                        "name": "two_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -164,7 +164,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "one_mode",
+                                        "name": "two_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -187,7 +187,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "one_mode",
+                                        "name": "two_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -210,7 +210,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "one_mode",
+                                        "name": "two_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -233,7 +233,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "one_mode",
+                                        "name": "two_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -256,7 +256,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "one_mode",
+                                        "name": "two_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -279,7 +279,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "one_mode",
+                                        "name": "two_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -302,7 +302,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "one_mode",
+                                        "name": "two_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
