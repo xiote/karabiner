@@ -382,7 +382,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "&"
+                                        "key_code": "7",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -405,7 +408,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "*"
+                                        "key_code": "8",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -428,7 +434,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "("
+                                        "key_code": "9",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -451,7 +460,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "4"
+                                        "key_code": "4",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -474,7 +486,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "%"
+                                        "key_code": "5",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -497,7 +512,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "^"
+                                        "key_code": "6",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -520,7 +538,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "!"
+                                        "key_code": "1",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -543,7 +564,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "@"
+                                        "key_code": "2",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -566,7 +590,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "#"
+                                        "key_code": "3",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -589,7 +616,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": ")"
+                                        "key_code": "0",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
