@@ -53,7 +53,7 @@
                         ]
                     },
                     {
-                        "description": "SpaceFN: [ w=>delete word ]",
+                        "description": "SpaceFN: [ w=>escape ]",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -71,76 +71,6 @@
                                 ],
                                 "from": {
                                     "key_code": "w",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "w",
-                                        "modifiers": [
-                                            "command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "spacefn_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.apple\\.Terminal$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "w",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "delete_or_backspace",
-                                        "modifiers": [
-                                            "control"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                            
-                        ]
-                    },
-                    {
-                        "description": "SpaceFN: [ e=>escape ]",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "spacefn_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    },
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.apple\\.Terminal$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "e",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -169,7 +99,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "w",
                                     "modifiers": {
                                         "optional": [
                                             "any"
