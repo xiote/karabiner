@@ -115,7 +115,7 @@
                             }
                             
                         ]
-                    }
+                    },
                     {
                         "description": "SpaceFN: Space enables SpaceFN mode (see: https://geekhack.org/index.php?topic=51069.0)",
                         "manipulators": [
