@@ -19,6 +19,13 @@
                         "description": "Zero mode", 
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "name": "zero_mode",
+                                        "type": "variable_if",
+                                        "value": 0
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "0",
                                     "modifiers": {
@@ -35,17 +42,30 @@
                                         }
                                     }
                                 ],
-                                "to_after_key_up": [
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "zero_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "0",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
                                     {
                                         "set_variable": {
                                             "name": "zero_mode",
                                             "value": 0
                                         }
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "0"
                                     }
                                 ],
                                 "type": "basic"
