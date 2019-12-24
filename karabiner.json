@@ -212,7 +212,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "u",
+                                    "key_code": "r",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -235,7 +235,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "e",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -258,7 +258,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "o",
+                                    "key_code": "w",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -281,7 +281,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "j",
+                                    "key_code": "f",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -304,7 +304,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "k",
+                                    "key_code": "d",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -327,7 +327,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "l",
+                                    "key_code": "s",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -350,7 +350,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "v",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -373,7 +373,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "c",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -396,7 +396,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -419,7 +419,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "right_command",
+                                    "key_code": "left_command",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -447,7 +447,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "u",
+                                    "key_code": "r",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -473,7 +473,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "e",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -499,7 +499,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "o",
+                                    "key_code": "w",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -525,7 +525,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "j",
+                                    "key_code": "f",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -551,7 +551,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "k",
+                                    "key_code": "d",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -577,7 +577,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "l",
+                                    "key_code": "s",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -603,7 +603,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "v",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -629,7 +629,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "comma",
+                                    "key_code": "c",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -655,7 +655,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "period",
+                                    "key_code": "x",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -681,7 +681,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "right_command",
+                                    "key_code": "left_command",
                                     "modifiers": {
                                         "optional": [
                                             "any"
