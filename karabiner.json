@@ -16,18 +16,18 @@
                 },
                 "rules": [
                     {
-                        "description": "Zero mode", 
+                        "description": "Eight mode", 
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "0",
+                                    "key_code": "8",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -37,7 +37,7 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "zero_mode",
+                                            "name": "eight_mode",
                                             "value": 1
                                         }
                                     }
@@ -47,13 +47,13 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "0",
+                                    "key_code": "8",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -63,7 +63,7 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "zero_mode",
+                                            "name": "eight_mode",
                                             "value": 0
                                         }
                                     }
@@ -221,12 +221,12 @@
                         ]
                     },
                     {
-                        "description": "zero_mode",
+                        "description": "eight_mode",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -249,7 +249,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -272,7 +272,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -295,7 +295,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -318,7 +318,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -341,7 +341,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -364,7 +364,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -387,7 +387,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -410,7 +410,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -433,7 +433,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -456,7 +456,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -479,7 +479,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -502,7 +502,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -525,7 +525,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -543,7 +543,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "zero_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
