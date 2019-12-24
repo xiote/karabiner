@@ -531,16 +531,11 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "b",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
+                                    "key_code": "spacebar"
                                 },
                                 "to": [
                                     {
-                                        "key_code": "delete_or_backspace"
+                                        "key_code": "return_or_enter"
                                     }
                                 ],
                                 "type": "basic"
@@ -556,14 +551,14 @@
                                 "from": {
                                     "key_code": "spacebar",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "command"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "key_code": "return_or_enter"
+                                        "key_code": "delete_or_backspace"
                                     }
                                 ],
                                 "type": "basic"
