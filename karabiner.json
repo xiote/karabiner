@@ -267,7 +267,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "9"
+                                        "key_code": "7"
                                     }
                                 ],
                                 "type": "basic"
@@ -290,7 +290,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "4"
+                                        "key_code": "6"
                                     }
                                 ],
                                 "type": "basic"
@@ -336,7 +336,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "6"
+                                        "key_code": "4"
                                     }
                                 ],
                                 "type": "basic"
@@ -359,7 +359,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "1"
+                                        "key_code": "3"
                                     }
                                 ],
                                 "type": "basic"
@@ -405,7 +405,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "3"
+                                        "key_code": "1"
                                     }
                                 ],
                                 "type": "basic"
@@ -456,7 +456,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "7",
+                                        "key_code": "9",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -508,7 +508,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "9",
+                                        "key_code": "7",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -534,7 +534,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "4",
+                                        "key_code": "6",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -586,7 +586,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "6",
+                                        "key_code": "4",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -612,7 +612,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "1",
+                                        "key_code": "3",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -664,7 +664,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "3",
+                                        "key_code": "1",
                                         "modifiers": [
                                             "shift"
                                         ]
