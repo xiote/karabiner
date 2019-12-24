@@ -442,7 +442,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "q",
+                                    "key_code": "t",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -465,7 +465,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "a",
+                                    "key_code": "g",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -498,6 +498,29 @@
                                 "to": [
                                     {
                                         "key_code": "grave_accent_and_tilde"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "zero_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "b",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace"
                                     }
                                 ],
                                 "type": "basic"
@@ -776,7 +799,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "q",
+                                    "key_code": "t",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -802,7 +825,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "a",
+                                    "key_code": "g",
                                     "modifiers": {
                                         "optional": [
                                             "any"
