@@ -1768,42 +1768,13 @@
                         ]
                     },
                     {
-                        "description": "[ ;=>return_or_enter ]",
+                        "description": "l to return_or_enter",
                         "manipulators": [
                             {
                                 "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.apple\\.Terminal$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    }
                                 ],
                                 "from": {
-                                    "key_code": "semicolon",
-                                    "modifiers": {
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "return_or_enter"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.apple\\.Terminal$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "semicolon",
-                                    "modifiers": {
-                                    }
+                                    "key_code": "l"
                                 },
                                 "to": [
                                     {
@@ -1812,7 +1783,24 @@
                                 ],
                                 "type": "basic"
                             }
-                            
+                        ]
+                    },
+                    {
+                        "description": "semicolon to l",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                ],
+                                "from": {
+                                    "key_code": "semicolon"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "l"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
                         ]
                     }
                 ]
