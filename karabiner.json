@@ -1768,7 +1768,7 @@
                         ]
                     },
                     {
-                        "description": "l to return_or_enter",
+                        "description": "l to return_or_enter, shift+l to escape",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1779,6 +1779,24 @@
                                 "to": [
                                     {
                                         "key_code": "return_or_enter"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                ],
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
