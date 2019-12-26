@@ -1109,8 +1109,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "2",
-                                        "modifiers": [
+                                        "key_code": "semicolon",
                                             "shift"
                                         ]
                                     }
