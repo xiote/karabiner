@@ -1768,21 +1768,8 @@
                         ]
                     },
                     {
-                        "description": "l to return_or_enter, shift+l to escape",
+                        "description": "shift+l to shift+semicolon",
                         "manipulators": [
-                            {
-                                "conditions": [
-                                ],
-                                "from": {
-                                    "key_code": "l"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "return_or_enter"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
                             {
                                 "conditions": [
                                 ],
@@ -1796,7 +1783,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "escape"
+                                        "key_code": "semicolon",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -1804,7 +1794,7 @@
                         ]
                     },
                     {
-                        "description": "semicolon to l",
+                        "description": "shift+semicolon to shift+l",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1812,19 +1802,17 @@
                                 "from": {
                                     "key_code": "semicolon",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "shift"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
                                         "key_code": "l",
-                                        "modifiers": {
-                                            "optional": [
-                                                "any"
-                                            ]
-                                        }
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
