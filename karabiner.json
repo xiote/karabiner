@@ -16,18 +16,18 @@
                 },
                 "rules": [
                     {
-                        "description": "Eight mode", 
+                        "description": "Seven mode", 
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 0
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "8",
+                                    "key_code": "7",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -37,7 +37,7 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "eight_mode",
+                                            "name": "seven_mode",
                                             "value": 1
                                         }
                                     }
@@ -47,13 +47,13 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "8",
+                                    "key_code": "7",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -63,46 +63,9 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "eight_mode",
+                                            "name": "seven_mode",
                                             "value": 0
                                         }
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Zero mode", 
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "0",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "zero_mode",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "zero_mode",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "0"
                                     }
                                 ],
                                 "type": "basic"
@@ -140,6 +103,43 @@
                                 "to_if_alone": [
                                     {
                                         "key_code": "9"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Eight mode", 
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "8",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "eight_mode",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "eight_mode",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "8"
                                     }
                                 ],
                                 "type": "basic"
@@ -258,12 +258,12 @@
                         ]
                     },
                     {
-                        "description": "eight_mode",
+                        "description": "seven_mode",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -286,7 +286,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -309,7 +309,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -332,7 +332,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -355,7 +355,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -378,7 +378,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -401,7 +401,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -424,7 +424,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -447,7 +447,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -470,7 +470,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -493,7 +493,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -516,7 +516,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -539,7 +539,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -562,7 +562,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -580,7 +580,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "seven_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -596,310 +596,6 @@
                                 "to": [
                                     {
                                         "key_code": "delete_or_backspace"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "zero_mode",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "r",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "9"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "e",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "8"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "w",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "7"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "f",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "6"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "d",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "5"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "s",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "4"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "v",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "3"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "c",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "2"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "x",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "1"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "left_command",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "0"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "t",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "hyphen"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "g",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "equal_sign"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "zero_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "z",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "grave_accent_and_tilde"
                                     }
                                 ],
                                 "type": "basic"
@@ -927,6 +623,310 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "9"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "e",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "8"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "w",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "7"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "6"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "5"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "4"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "3"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "2"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "x",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "1"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "left_command",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "0"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "t",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "g",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "equal_sign"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "nine_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "grave_accent_and_tilde"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "eight_mode",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "eight_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
                                         "key_code": "9",
                                         "modifiers": [
                                             "shift"
@@ -938,7 +938,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -964,7 +964,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -990,7 +990,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1016,7 +1016,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1042,7 +1042,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1068,7 +1068,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1094,7 +1094,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1120,7 +1120,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1146,7 +1146,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1172,7 +1172,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1198,7 +1198,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1224,7 +1224,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "nine_mode",
+                                        "name": "eight_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
