@@ -1810,11 +1810,21 @@
                                 "conditions": [
                                 ],
                                 "from": {
-                                    "key_code": "semicolon"
+                                    "key_code": "semicolon",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
-                                        "key_code": "l"
+                                        "key_code": "l",
+                                        "modifiers": {
+                                            "optional": [
+                                                "any"
+                                            ]
+                                        }
                                     }
                                 ],
                                 "type": "basic"
