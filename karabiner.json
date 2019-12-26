@@ -1112,7 +1112,7 @@
                                         "key_code": "2",
                                         "modifiers": [
                                             "shift"
-                                        ]
+                                       ]
                                     }
                                 ],
                                 "type": "basic"
@@ -1678,8 +1678,8 @@
                                 "type": "basic"
                             }
                         ]
-                    },
-                                                            {
+                },
+                {
                         "description": "CommandFN: for not_vi, z to undo",
                         "manipulators": [
                             {
@@ -1711,7 +1711,29 @@
                             }
                         ]
                     },
-
+                    {
+                        "description": "CommandFN: for not_vi, s to escape",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                ],
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "escape"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
                     {
                         "description": "Change Won (₩) to grave accent (`) in Korean layout.",
                         "manipulators": [
