@@ -102,7 +102,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "9"
+                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -139,7 +139,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "8"
+                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -176,7 +176,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "2"
+                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -213,7 +213,7 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "3"
+                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -1240,6 +1240,37 @@
                                 "to": [
                                     {
                                         "key_code": "grave_accent_and_tilde",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "two_mode",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "two_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "l",
                                         "modifiers": [
                                             "shift"
                                         ]
