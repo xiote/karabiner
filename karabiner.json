@@ -1489,8 +1489,7 @@
                                     "key_code": "w",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
-                                            "shift"
+                                            "left_command"
                                         ]
                                     }
                                 },
@@ -1498,7 +1497,8 @@
                                     {
                                         "key_code": "w",
                                         "modifiers": [
-                                            "option"
+                                            "option",
+                                            "shift"
                                         ]
                                     }
                                 ],
