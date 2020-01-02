@@ -1489,7 +1489,8 @@
                                     "key_code": "w",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command"
+                                            "left_command",
+                                            "shift"
                                         ]
                                     }
                                 },
