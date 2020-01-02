@@ -1339,6 +1339,29 @@
                         ]
                     },
                     {
+                        "description": "CommandFN: for not_vi, shift+m to enter",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                ],
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "return_or_enter"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "CommandFN: for not_vi, w to option+[delete_or_backspace]",
                         "manipulators": [
                             {
