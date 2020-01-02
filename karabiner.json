@@ -1362,6 +1362,29 @@
                         ]
                     },
                     {
+                        "description": "CommandFN: for not_vi, shift+o to escape",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                ],
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "escape"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "CommandFN: for not_vi, w to option+[delete_or_backspace]",
                         "manipulators": [
                             {
