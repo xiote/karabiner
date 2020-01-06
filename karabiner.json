@@ -333,7 +333,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "r",
+                                    "key_code": "e",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -356,7 +356,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "w",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -379,7 +379,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "w",
+                                    "key_code": "q",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -563,7 +563,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "t",
+                                    "key_code": "r",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -632,7 +632,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "r",
+                                    "key_code": "e",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -655,7 +655,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "w",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -678,7 +678,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "w",
+                                    "key_code": "q",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -839,30 +839,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "t",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "0"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "period_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "t",
+                                    "key_code": "r",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -890,7 +867,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "r",
+                                    "key_code": "e",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -916,7 +893,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "w",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -942,7 +919,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "w",
+                                    "key_code": "q",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -1124,7 +1101,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "t",
+                                    "key_code": "r",
                                     "modifiers": {
                                         "optional": [
                                             "any"
