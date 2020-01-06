@@ -1293,7 +1293,7 @@
                                 "type": "basic"
                             }
                         ]
-                    }
+                    },
                     {
                         "description": "CommandFN: for not_vi, shift+m to enter",
                         "manipulators": [
