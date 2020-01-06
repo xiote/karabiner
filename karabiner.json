@@ -151,12 +151,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "comma",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
+                                    "key_code": "comma"
                                 },
                                 "to": [
                                     {
