@@ -1292,7 +1292,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "o",
+                                    "key_code": "k",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -1301,7 +1301,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "o",
+                                        "key_code": "k",
                                         "modifiers": [
                                             "shift"
                                         ]
