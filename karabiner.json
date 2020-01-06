@@ -1272,6 +1272,29 @@
                         ]
                     },
                     {
+                        "description": "CommandFN: for not_vi, shift+semicolon to comma",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                ],
+                                "from": {
+                                    "key_code": "semicolon",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "comma"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                    {
                         "description": "CommandFN: for not_vi, shift+m to enter",
                         "manipulators": [
                             {
