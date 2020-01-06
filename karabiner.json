@@ -147,6 +147,43 @@
                         ]
                     },
                     {
+                        "description": "Comma mode", 
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "comma",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "comma_mode",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "comma_mode",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "vk_none"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                    {
                         "description": "Two mode", 
                         "manipulators": [
                             {
@@ -815,12 +852,12 @@
                         ]
                     },
                     {
-                        "description": "eight_mode",
+                        "description": "comma_mode",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "comma_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -846,7 +883,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "comma_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -872,7 +909,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "comma_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -898,7 +935,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "comma_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -924,7 +961,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "comma_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -950,7 +987,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "comma_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -976,7 +1013,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "comma_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1002,7 +1039,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "comma_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1028,7 +1065,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "comma_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -1054,7 +1091,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "eight_mode",
+                                        "name": "comma_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
