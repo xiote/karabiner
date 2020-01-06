@@ -1424,13 +1424,13 @@
                         ]
                     },
                     {
-                        "description": "CommandFN: for not_vi, shift+o to escape",
+                        "description": "CommandFN: for not_vi, shift+k to escape",
                         "manipulators": [
                             {
                                 "conditions": [
                                 ],
                                 "from": {
-                                    "key_code": "o",
+                                    "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
