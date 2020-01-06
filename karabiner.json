@@ -182,7 +182,7 @@
                                 "type": "basic"
                             }
                         ]
-                    }
+                    },
                     {
                         "description": "Two mode", 
                         "manipulators": [
