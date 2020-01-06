@@ -508,7 +508,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen"
+                                        "key_code": "0"
                                     }
                                 ],
                                 "type": "basic"
@@ -853,7 +853,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen"
+                                        "key_code": "0"
                                     }
                                 ],
                                 "type": "basic"
