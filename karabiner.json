@@ -1612,7 +1612,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "v",
+                                    "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
                                             "command",
