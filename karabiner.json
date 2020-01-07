@@ -73,80 +73,6 @@
                         ]
                     },
                     {
-                        "description": "Nine mode", 
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "9",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "nine_mode",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "nine_mode",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Eight mode", 
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "8",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "eight_mode",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "eight_mode",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Comma mode", 
                         "manipulators": [
                             {
@@ -177,18 +103,18 @@
                                 "type": "basic"
                             }
                         ]
-                    },
+                    },  
                     {
-                        "description": "Period mode", 
+                        "description": "Spacebar_mode", 
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "period"
+                                    "key_code": "spacebar"
                                 },
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "period_mode",
+                                            "name": "spacebar_mode",
                                             "value": 1
                                         }
                                     }
@@ -196,7 +122,7 @@
                                 "to_after_key_up": [
                                     {
                                         "set_variable": {
-                                            "name": "period_mode",
+                                            "name": "spacebar_mode",
                                             "value": 0
                                         }
                                     }
@@ -215,12 +141,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "2",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
+                                    "key_code": "2"
                                 },
                                 "to": [
                                     {
@@ -621,12 +542,12 @@
                         ]
                     },
                     {
-                        "description": "period_mode",
+                        "description": "spacebar_mode",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "name": "period_mode",
+                                        "name": "spacebar_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -649,7 +570,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "period_mode",
+                                        "name": "spacebar_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -672,7 +593,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "period_mode",
+                                        "name": "spacebar_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -695,7 +616,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "period_mode",
+                                        "name": "spacebar_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -718,7 +639,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "period_mode",
+                                        "name": "spacebar_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -741,7 +662,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "period_mode",
+                                        "name": "spacebar_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -764,7 +685,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "period_mode",
+                                        "name": "spacebar_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -787,7 +708,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "period_mode",
+                                        "name": "spacebar_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -810,7 +731,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "period_mode",
+                                        "name": "spacebar_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -833,7 +754,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "period_mode",
+                                        "name": "spacebar_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
