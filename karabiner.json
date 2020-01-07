@@ -1341,6 +1341,32 @@
                         ]
                     },
                     {
+                        "description": "CommandFN: for not_vi, shift+c to ctrl+c",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                ],
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "CommandFN: for not_vi, shift+n to down_arrow",
                         "manipulators": [
                             {
