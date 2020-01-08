@@ -639,6 +639,7 @@
                             }
                         ]
                     },
+                    ,
                     {
                         "description": "CommandFN: for not_vi, p to [up_arrow]",
                         "manipulators": [
