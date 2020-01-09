@@ -404,7 +404,7 @@
                                     "key_code": "c",
                                     "modifiers": {
                                         "mandatory": [
-                                            "shift"
+                                            "right_shift"
                                         ]
                                     }
                                 },
