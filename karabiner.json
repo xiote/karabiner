@@ -16,53 +16,16 @@
                 },
                 "rules": [
                     {
-                        "description": "Spacebar_mode", 
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "spacebar"
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "spacebar_mode",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "spacebar_mode",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "spacebar"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "spacebar_mode",
+                        "description": "right_option_mode",
                         "manipulators": [
                             {
                                 "conditions": [
-                                    {
-                                        "name": "spacebar_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
                                 ],
                                 "from": {
                                     "key_code": "e",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "right_option"
                                         ]
                                     }
                                 },
@@ -75,17 +38,12 @@
                             },
                             {
                                 "conditions": [
-                                    {
-                                        "name": "spacebar_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
                                 ],
                                 "from": {
                                     "key_code": "w",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "right_option"
                                         ]
                                     }
                                 },
@@ -98,17 +56,12 @@
                             },
                             {
                                 "conditions": [
-                                    {
-                                        "name": "spacebar_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
                                 ],
                                 "from": {
                                     "key_code": "q",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "right_option"
                                         ]
                                     }
                                 },
@@ -121,17 +74,12 @@
                             },
                             {
                                 "conditions": [
-                                    {
-                                        "name": "spacebar_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
                                 ],
                                 "from": {
                                     "key_code": "f",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "right_option"
                                         ]
                                     }
                                 },
@@ -144,17 +92,12 @@
                             },
                             {
                                 "conditions": [
-                                    {
-                                        "name": "spacebar_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
                                 ],
                                 "from": {
                                     "key_code": "d",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "right_option"
                                         ]
                                     }
                                 },
@@ -167,17 +110,12 @@
                             },
                             {
                                 "conditions": [
-                                    {
-                                        "name": "spacebar_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
                                 ],
                                 "from": {
                                     "key_code": "s",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "right_option"
                                         ]
                                     }
                                 },
@@ -190,17 +128,12 @@
                             },
                             {
                                 "conditions": [
-                                    {
-                                        "name": "spacebar_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
                                 ],
                                 "from": {
                                     "key_code": "v",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "right_option"
                                         ]
                                     }
                                 },
@@ -213,17 +146,12 @@
                             },
                             {
                                 "conditions": [
-                                    {
-                                        "name": "spacebar_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
                                 ],
                                 "from": {
                                     "key_code": "c",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "right_option"
                                         ]
                                     }
                                 },
@@ -236,17 +164,12 @@
                             },
                             {
                                 "conditions": [
-                                    {
-                                        "name": "spacebar_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
                                 ],
                                 "from": {
                                     "key_code": "x",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "right_option"
                                         ]
                                     }
                                 },
@@ -259,17 +182,12 @@
                             },
                             {
                                 "conditions": [
-                                    {
-                                        "name": "spacebar_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
                                 ],
                                 "from": {
                                     "key_code": "r",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "right_option"
                                         ]
                                     }
                                 },
