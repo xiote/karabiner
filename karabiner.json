@@ -1086,6 +1086,14 @@
                     "to": {
                         "key_code": "right_shift"
                     }
+                },
+                {
+                    "from": {
+                        "key_code": "return_or_enter"
+                    },
+                    "to": {
+                        "key_code": "left_shift"
+                    }
                 }
             ],
             "virtual_hid_keyboard": {
