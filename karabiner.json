@@ -261,7 +261,7 @@
                                 "conditions": [
                                 ],
                                 "from": {
-                                    "key_code": "right_command",
+                                    "key_code": "left_command",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
