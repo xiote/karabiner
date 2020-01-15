@@ -1476,7 +1476,7 @@
                         "key_code": "left_shift"
                     },
                     "to": {
-                        "key_code": "vk_none"
+                        "key_code": "tab"
                     }
                 },
                 {                                                              
@@ -1492,7 +1492,7 @@
                         "key_code": "right_shift"
                     },
                     "to": {
-                        "key_code": "vk_none"
+                        "key_code": "delete_or_backspace"
                     }
                 },
                 {                                                              
