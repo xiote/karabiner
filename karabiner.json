@@ -664,7 +664,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "backslash"
+                                        "key_code": "backslash",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
