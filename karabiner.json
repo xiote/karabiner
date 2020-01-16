@@ -201,7 +201,7 @@
                         ]
                     },
                     {
-                        "description": "tab_mode: ;,.hijklmnopuy",
+                        "description": "tab_mode: /;,.hijklmnopuy",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -247,10 +247,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
+                                        "key_code": "backslash"
                                     }
                                 ],
                                 "type": "basic"
