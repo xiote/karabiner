@@ -440,7 +440,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "tab"
+                                        "key_code": "period"
                                     }
                                 ],
                                 "type": "basic"
