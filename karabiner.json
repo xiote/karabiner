@@ -131,33 +131,6 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "j"
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "equal_mode",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "equal_mode",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
                                     "key_code": "equal_sign",
                                     "modifiers": {
                                         "optional": [
