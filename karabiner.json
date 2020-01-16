@@ -1107,8 +1107,31 @@
                         ]
                     },
                     {
-                        "description": "equal_mode: qa",
+                        "description": "equal_mode: qaz",
                         "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "equal_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
                             {
                                 "conditions": [
                                     {
