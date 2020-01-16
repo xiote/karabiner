@@ -57,7 +57,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "tilde",
+                                    "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -201,43 +201,6 @@
                         ]
                     },
                     {
-                        "description": "tab_mode",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "tab",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "tab_mode",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "tab_mode",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "capslock_mode",
                         "manipulators": [
                             {
@@ -275,12 +238,12 @@
                         ]
                     },
                     {
-                        "description": "tab_mode: /;,.hijklmnopuy",
+                        "description": "tilde_mode: /;,.hijklmnopuy",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -303,7 +266,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -329,7 +292,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -352,7 +315,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -375,7 +338,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -398,7 +361,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -424,7 +387,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -447,7 +410,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -470,7 +433,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -496,7 +459,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -519,7 +482,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -545,7 +508,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -571,7 +534,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -594,7 +557,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -620,7 +583,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -646,7 +609,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "tab_mode",
+                                        "name": "tilde_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
