@@ -626,9 +626,9 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen",
+                                        "key_code": "c",
                                         "modifiers": [
-                                            "shift"
+                                            "command"
                                         ]
                                     }
                                 ],
