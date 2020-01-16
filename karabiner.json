@@ -164,43 +164,6 @@
                         ]
                     },
                     {
-                        "description": "backspace_mode",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "delete_or_backspace",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "backspace_mode",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "to_after_key_up": [
-                                    {
-                                        "set_variable": {
-                                            "name": "backspace_mode",
-                                            "value": 0
-                                        }
-                                    }
-                                ],
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "vk_none"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "capslock_mode",
                         "manipulators": [
                             {
@@ -632,12 +595,12 @@
                         ]
                     },
                     {
-                        "description": "backspace_mode: bgqt",
+                        "description": "backslash_mode: bgqt",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -663,7 +626,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -686,7 +649,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -712,7 +675,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -735,7 +698,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -761,7 +724,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -787,7 +750,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -813,7 +776,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -839,7 +802,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -865,7 +828,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -891,7 +854,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -917,7 +880,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -943,7 +906,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -969,7 +932,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -995,7 +958,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backspace_mode",
+                                        "name": "backslash_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -2278,7 +2241,7 @@
                         "key_code": "right_shift"
                     },
                     "to": {
-                        "key_code": "delete_or_backspace"
+                        "key_code": "backslash"
                     }
                 },
                 {                                                              
