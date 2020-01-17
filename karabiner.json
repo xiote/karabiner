@@ -700,36 +700,10 @@
                                 },
                                 "to": [
                                     {
-                                        "set_variable": {
-                                            "name": "equal_mode",
-                                            "value": 1
-                                        }
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "backslash_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "q",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "key_code": "hyphen",
+                                        "modifiers": [
+                                            "shift"
                                         ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "equal_mode",
-                                            "value": 1
-                                        }
                                     }
                                 ],
                                 "type": "basic"
