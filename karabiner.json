@@ -1507,10 +1507,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "8",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
+                                        "key_code": "3"
                                     }
                                 ],
                                 "type": "basic"
@@ -1637,10 +1634,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "3",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
+                                        "key_code": "8"
                                     }
                                 ],
                                 "type": "basic"
