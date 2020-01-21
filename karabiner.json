@@ -450,7 +450,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "period"
+                                        "key_code": "tab"
                                     }
                                 ],
                                 "type": "basic"
