@@ -201,7 +201,7 @@
                         ]
                     },
                     {
-                        "description": "tilde_mode: space /;,.hijklmnopuy",
+                        "description": "tilde_mode: space /;,.hijklnopuy",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -604,29 +604,6 @@
                                         "modifiers": [
                                             "shift"
                                         ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "tilde_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "m",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "return_or_enter"
                                     }
                                 ],
                                 "type": "basic"
