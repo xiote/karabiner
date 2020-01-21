@@ -201,7 +201,7 @@
                         ]
                     },
                     {
-                        "description": "tilde_mode: space /;,.hijklnopuy",
+                        "description": "tilde_mode: space /;,.hijklmnopuy",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -261,6 +261,29 @@
                                             "name": "equal_mode",
                                             "value": 0
                                         }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "tilde_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
