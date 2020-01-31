@@ -2546,10 +2546,19 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_arrow",
+                                        "key_code": "escape"
+                                    },
+                                    {
+                                        "key_code": "g",
                                         "modifiers": [
-                                            "fn"
+                                            "shift"
                                         ]
+                                    },
+                                    {
+                                        "key_code": "o"
+                                    },
+                                    {
+                                        "key_code": "a"
                                     }
                                 ],
                                 "type": "basic"
