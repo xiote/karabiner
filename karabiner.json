@@ -2351,6 +2351,70 @@
                     {
                         "description": "backslash_mode: abgqtz",
                         "manipulators": [
+                            { "from": {
+                                    "key_code": "q", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "w", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "e", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "r", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "t", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "a", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "s", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "d", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "f", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "g", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "z", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "x", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "c", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "v", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "b", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "spacebar", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
                             {
                                 "conditions": [
                                     {
@@ -2907,6 +2971,10 @@
                             },
                             { "from": {
                                     "key_code": "close_bracket", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "space_bar", 
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
                             {
