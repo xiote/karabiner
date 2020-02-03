@@ -2934,10 +2934,6 @@
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
                             { "from": {
-                                    "key_code": "y", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
-                            { "from": {
                                     "key_code": "u", 
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
@@ -2951,10 +2947,6 @@
                             },
                             { "from": {
                                     "key_code": "p", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
-                            { "from": {
-                                    "key_code": "quote", 
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
                             { "from": {
