@@ -2898,10 +2898,6 @@
                         "description": "tilde_mode: space /;,.hijklmnopuy",
                         "manipulators": [
                             { "from": {
-                                    "key_code": "slash", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
-                            { "from": {
                                     "key_code": "semicolon", 
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
@@ -2915,6 +2911,10 @@
                             },
                             { "from": {
                                     "key_code": "h", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
+                            { "from": {
+                                    "key_code": "j", 
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
                             { "from": {
