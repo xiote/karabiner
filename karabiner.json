@@ -3554,7 +3554,8 @@
                                     "key_code": "v",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_control"
+                                            "left_control",
+                                            "left_shift"
                                         ]
                                     }
                                 },
