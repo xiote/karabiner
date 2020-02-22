@@ -492,12 +492,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "backslash",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
+                                    "key_code": "backslash"
                                 },
                                 "to": [
                                     {
