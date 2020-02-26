@@ -1084,6 +1084,32 @@
                         ]
                     },
                     {
+                        "description": "CommandFN: quote to backtick",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                ],
+                                "from": {
+                                    "key_code": "quote",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "grave_accent_and_tilde",
+                                        "modifiers": [
+                                            "option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "CommandFN: w to option+[delete_or_backspace]",
                         "manipulators": [
                             {
