@@ -440,7 +440,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "0",
+                                        "key_code": "equal_sign",
                                         "modifiers": [
                                             "shift"
                                         ]
