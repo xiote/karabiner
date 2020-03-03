@@ -451,6 +451,75 @@
                         ]
                     },
                     {
+                        "description": "capslock_mode",
+                        "manipulators": [
+{
+    "type": "basic",
+    "from": {
+        "key_code": "right_shift",
+        "modifiers": {
+            "optional": [
+                "any"
+            ]
+        }
+    },
+    "to": [
+        {
+            "key_code": "caps_lock"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "variable_if",
+            "name": "right_shift pressed",
+            "value": 1
+        }
+    ]
+},
+
+{
+    "type": "basic",
+    "from": {
+        "key_code": "right_shift",
+        "modifiers": {
+            "optional": [
+                "any"
+            ]
+        }
+    },
+    "to": [
+        {
+            "set_variable": {
+                "name": "right_shift pressed",
+                "value": 1
+            }
+        },
+        {
+            "key_code": "right_shift"
+        }
+    ],
+    "to_delayed_action": {
+        "to_if_invoked": [
+            {
+                "set_variable": {
+                    "name": "right_shift pressed",
+                    "value": 0
+                }
+            }
+        ],
+        "to_if_canceled": [
+            {
+                "set_variable": {
+                    "name": "right_shift pressed",
+                    "value": 0
+                }
+            }
+        ]
+    }
+}
+                        ]
+                    },
+                    {
                         "description": "backslash_mode",
                         "manipulators": [
                             {
@@ -1118,59 +1187,6 @@
                         ]
                     },
                     {
-                        "description": "CommandFN: l to escape",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.apple\\.Terminal$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "l",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "escape"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.apple\\.Terminal$"
-                                        ],
-                                        "type": "frontmost_application_unless"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "l",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "escape"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "CommandFN: w to option+[delete_or_backspace]",
                         "manipulators": [
                             {
@@ -1524,6 +1540,35 @@
                                         "modifiers": [
                                             "control"
                                         ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Terminal: Special: l",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "l",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
