@@ -1068,7 +1068,7 @@
                         ]
                     },
                     {
-                        "description": "CommandFN: Special: spacebar+shift+option",
+                        "description": "CommonFN: Special: spacebar+shift+option",
                         "manipulators": [
                             {
                                 "from": {
@@ -1093,7 +1093,7 @@
                         ]
                     },
                     {
-                        "description": "Common: Special: spacebar+shift+command",
+                        "description": "CommonFN: Special: spacebar+shift+command",
                         "manipulators": [
                             {
                                 "from": {
@@ -1118,13 +1118,13 @@
                         ]
                     },
                     {
-                        "description": "CommandFN: quote to backtick",
+                        "description": "CommandFN: l to escape",
                         "manipulators": [
                             {
                                 "conditions": [
                                 ],
                                 "from": {
-                                    "key_code": "quote",
+                                    "key_code": "l",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_command"
@@ -1133,10 +1133,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "grave_accent_and_tilde",
-                                        "modifiers": [
-                                            "option"
-                                        ]
+                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
