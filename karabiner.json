@@ -1047,7 +1047,7 @@
                         ]
                     },
                     {
-                        "description": "CommandFN: Special: spacebar+right_shift",
+                        "description": "CommonFN: Special: spacebar+right_shift",
                         "manipulators": [
                             {
                                 "from": {
@@ -1283,6 +1283,35 @@
                         ]
                     },
                     {
+                        "description": "Terminal: Special: comma",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "return_or_enter"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Terminal: Special: m",
                         "manipulators": [
                             {
@@ -1334,35 +1363,6 @@
                                 "to": [
                                     {
                                         "key_code": "backslash"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Terminal: Special: comma",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.apple\\.Terminal$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "comma",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
@@ -1499,7 +1499,7 @@
                         ]
                     },
                     {
-                        "description": "Terminal: Special: ,",
+                        "description": "Terminal: Special: comma",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1520,15 +1520,9 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "o",
+                                        "key_code": "c",
                                         "modifiers": [
                                             "control"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "semicolon",
-                                        "modifiers": [
-                                            "shift"
                                         ]
                                     }
                                 ],
