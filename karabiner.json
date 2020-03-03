@@ -1579,54 +1579,6 @@
                         ]
                     },
                     {
-                        "description": "Right-CommandFN: f to hyphen",
-                        "manipulators": [
-                            {
-                                "conditions": [],
-                                "from": {
-                                    "key_code": "f",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "hyphen"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Right-CommandFN: c to underbar",
-                        "manipulators": [
-                            {
-                                "conditions": [],
-                                "from": {
-                                    "key_code": "c",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "hyphen",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
-                                
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "CommandFN: m to enter",
                         "manipulators": [
                             {
@@ -2028,12 +1980,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "f",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_control"
-                                        ]
-                                    }
+                                    "key_code": "hyphen"
                                 },
                                 "to": [
                                     {
@@ -2066,9 +2013,9 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "c",
+                                        "key_code": "hyphen",
                                         "modifiers": [
-                                            "left_command"
+                                            "shift"
                                         ]
                                     }
                                 ],
