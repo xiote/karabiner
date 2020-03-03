@@ -16,6 +16,29 @@
                 },
                 "rules": [
                     {
+                        "description": "number_key mode",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                ],
+                                "from": {
+                                    "key_code": "2",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "caps_lock pressed",
                         "manipulators": [
                             {
