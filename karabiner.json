@@ -889,10 +889,6 @@
                         "description": "tilde_mode: space /;,.hijklmnopuy",
                         "manipulators": [
                             { "from": {
-                                    "key_code": "semicolon", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
-                            { "from": {
                                     "key_code": "comma", 
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
@@ -1078,10 +1074,7 @@
                                 },
                                 "to": [
                                     {
-                                        "set_variable": {
-                                            "name": "hyphen_mode",
-                                            "value": 1
-                                        }
+                                        "key_code": "hyphen"
                                     }
                                 ],
                                 "type": "basic"
