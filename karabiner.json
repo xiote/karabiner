@@ -1485,7 +1485,7 @@
                         ]
                     },
                     {
-                        "description": "CommandFN: n to down_arrow, p to up_arrow",
+                        "description": "CommandFN: n to down_arrow, p to escape",
                         "manipulators": [
                             {
                                 "conditions": [],
@@ -1499,7 +1499,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "up_arrow"
+                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
