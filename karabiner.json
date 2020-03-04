@@ -346,7 +346,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen"
+                                        "key_code": "grave_accent_and_tilde",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
