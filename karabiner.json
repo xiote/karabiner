@@ -1383,7 +1383,7 @@
                         ]
                     },
                     {
-                        "description": "CommonFN: Special: spacebar+option",
+                        "description": "SelectInputSourceABC: option+spacebar, control+[",
                         "manipulators": [
                             {
                                 "from": {
@@ -1406,6 +1406,54 @@
                                         "modifiers": [
                                             "option"
                                         ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    },
+                                    {
+                                        "type": "input_source_unless",
+                                        "input_sources": [
+                                            {
+                                                "language": "en",
+                                                "input_source_id": "com.apple.keylayout.ABC"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "open_bracket",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "open_bracket",
+                                        "modifiers": [
+                                            "control"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "open_bracket",
+                                        "modifiers": [
+                                            "control"
+                                        ]
+                                    },
+                                    {
+                                         "select_input_source": {
+                                            "language": "en",
+                                            "input_source_id": "com.apple.keylayout.ABC"
+                                        }
                                     }
                                 ],
                                 "type": "basic"
