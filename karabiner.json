@@ -294,7 +294,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "3",
+                                        "key_code": "grave_accent_and_tilde",
                                         "modifiers": [
                                             "shift"
                                         ]
