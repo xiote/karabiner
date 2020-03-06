@@ -1380,6 +1380,17 @@
                         "description": "SelectInputSourceABC: option+spacebar, control+[",
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "type": "input_source_unless",
+                                        "input_sources": [
+                                            {
+                                                "language": "en",
+                                                "input_source_id": "com.apple.keylayout.ABC"
+                                            }
+                                        ]
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "spacebar",
                                     "modifiers": {
@@ -1423,7 +1434,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "open_bracket",
+                                    "key_code": "quote",
                                     "modifiers": {
                                         "mandatory": [
                                             "control"
@@ -1432,22 +1443,22 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "open_bracket",
-                                        "modifiers": [
-                                            "control"
-                                        ]
-                                    },
-                                    {
-                                        "key_code": "open_bracket",
-                                        "modifiers": [
-                                            "control"
-                                        ]
-                                    },
-                                    {
                                          "select_input_source": {
                                             "language": "en",
                                             "input_source_id": "com.apple.keylayout.ABC"
                                         }
+                                    },
+                                    {
+                                        "key_code": "quote",
+                                        "modifiers": [
+                                            "control"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "quote",
+                                        "modifiers": [
+                                            "control"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -1638,7 +1649,7 @@
                         ]
                     },
                     {
-                        "description": "Terminal: Special: comma",
+                        "description": "Terminal: Special: quote",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1650,7 +1661,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "quote",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control"
@@ -1659,7 +1670,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "return_or_enter"
+                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
