@@ -453,114 +453,114 @@
                     {
                         "description": "capslock_mode",
                         "manipulators": [
-{
-    "type": "basic",
-    "from": {
-        "key_code": "right_shift",
-        "modifiers": {
-            "optional": [
-                "any"
-            ]
-        }
-    },
-    "to": [
-        {
-            "set_variable": {
-                "name": "caps_lock pressed",
-                "value": 0
-            }
-        },
-        {
-            "key_code": "caps_lock"
-        }
-    ],
-    "conditions": [
-        {
-            "type": "variable_if",
-            "name": "right_shift pressed",
-            "value": 1
-        },
-        {
-            "type": "variable_if",
-            "name": "caps_lock pressed",
-            "value": 1
-        }
-    ]
-},
-{
-    "type": "basic",
-    "from": {
-        "key_code": "right_shift",
-        "modifiers": {
-            "optional": [
-                "any"
-            ]
-        }
-    },
-    "to": [
-        {
-            "set_variable": {
-                "name": "caps_lock pressed",
-                "value": 1
-            }
-        },
-        {
-            "key_code": "caps_lock"
-        }
-    ],
-    "conditions": [
-        {
-            "type": "variable_if",
-            "name": "right_shift pressed",
-            "value": 1
-        },
-        {
-            "type": "variable_if",
-            "name": "caps_lock pressed",
-            "value": 0
-        }
-    ]
-},
-{
-    "type": "basic",
-    "from": {
-        "key_code": "right_shift",
-        "modifiers": {
-            "optional": [
-                "any"
-            ]
-        }
-    },
-    "to": [
-        {
-            "set_variable": {
-                "name": "right_shift pressed",
-                "value": 1
-            }
-        },
-        {
-            "key_code": "right_shift"
-        }
-    ],
-    "to_delayed_action": {
-        "to_if_invoked": [
-            {
-                "set_variable": {
-                    "name": "right_shift pressed",
-                    "value": 0
-                }
-            }
-        ],
-        "to_if_canceled": [
-            {
-                "set_variable": {
-                    "name": "right_shift pressed",
-                    "value": 0
-                }
-            }
-        ]
-    }
-}
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "right_shift",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "caps_lock pressed",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "key_code": "caps_lock"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "right_shift pressed",
+                                        "value": 1
+                                    },
+                                    {
+                                        "type": "variable_if",
+                                        "name": "caps_lock pressed",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "right_shift",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "caps_lock pressed",
+                                            "value": 1
+                                        }
+                                    },
+                                    {
+                                        "key_code": "caps_lock"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "right_shift pressed",
+                                        "value": 1
+                                    },
+                                    {
+                                        "type": "variable_if",
+                                        "name": "caps_lock pressed",
+                                        "value": 0
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "right_shift",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "right_shift pressed",
+                                            "value": 1
+                                        }
+                                    },
+                                    {
+                                        "key_code": "right_shift"
+                                    }
+                                ],
+                                "to_delayed_action": {
+                                    "to_if_invoked": [
+                                        {
+                                            "set_variable": {
+                                                "name": "right_shift pressed",
+                                                "value": 0
+                                            }
+                                        }
+                                    ],
+                                    "to_if_canceled": [
+                                        {
+                                            "set_variable": {
+                                                "name": "right_shift pressed",
+                                                "value": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
                         ]
                     },
                     {
@@ -1901,7 +1901,12 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "right_command"
+                                    "key_code": "right_command",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -1920,7 +1925,12 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "left_command"
+                                    "key_code": "left_command",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
