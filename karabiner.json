@@ -803,7 +803,8 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "backslash"
+                                    "key_code": "backslash",
+                                    "modifiers": { "optional": [ "any" ] } 
                                 },
                                 "to": [
                                     {
@@ -835,7 +836,8 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "grave_accent_and_tilde"
+                                    "key_code": "grave_accent_and_tilde",
+                                    "modifiers": { "optional": [ "any" ] } 
                                 },
                                 "to": [
                                     {
