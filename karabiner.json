@@ -569,11 +569,11 @@
                             {
                                 "from": {
                                     "key_code": "backslash",
-        "modifiers": {
-            "optional": [
-                "caps_lock"
-            ]
-        }
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -1411,6 +1411,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "command"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -1455,6 +1458,33 @@
                     {
                         "description": "Terminal: Special: m",
                         "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ],
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "return_or_enter"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
                             {
                                 "conditions": [
                                     {
