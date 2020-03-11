@@ -455,6 +455,51 @@
                         ]
                     },
                     {
+                        "description": "left_shift pressed",
+                        "manipulators": [
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "left_shift",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "left_shift pressed",
+                                            "value": 1
+                                        }
+                                    },
+                                    {
+                                        "key_code": "left_shift"
+                                    }
+                                ],
+                                "to_delayed_action": {
+                                    "to_if_invoked": [
+                                        {
+                                            "set_variable": {
+                                                "name": "left_shift pressed",
+                                                "value": 0
+                                            }
+                                        }
+                                    ],
+                                    "to_if_canceled": [
+                                        {
+                                            "set_variable": {
+                                                "name": "left_shift pressed",
+                                                "value": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
                         "description": "capslock_mode",
                         "manipulators": [
                             {
@@ -607,6 +652,39 @@
                     {
                         "description": "tilde_mode",
                         "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "grave_accent_and_tilde",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock",
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "tilde_mode",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "tilde_mode",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "vk_none"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
                             {
                                 "from": {
                                     "key_code": "grave_accent_and_tilde",
