@@ -1001,7 +1001,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "0",
+                                        "key_code": "9",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -1125,7 +1125,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "9",
+                                        "key_code": "0",
                                         "modifiers": [
                                             "shift"
                                         ]
