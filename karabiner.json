@@ -18,10 +18,6 @@
                     {
                         "description": "backslash_mode: abgqtz",
                         "manipulators": [
-                            { "from": {
-                                    "key_code": "x", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
                             {
                                 "conditions": [
                                     {
@@ -392,7 +388,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "5",
+                                        "key_code": "1",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -834,7 +830,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen"
+                                        "key_code": "8",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
