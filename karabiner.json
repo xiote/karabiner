@@ -2006,7 +2006,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "3"
+                                        "key_code": "8"
                                     }
                                 ],
                                 "type": "basic"
@@ -2022,7 +2022,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "8"
+                                        "key_code": "2"
                                     }
                                 ],
                                 "type": "basic"
@@ -2102,7 +2102,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "2"
+                                        "key_code": "4"
                                     }
                                 ],
                                 "type": "basic"
@@ -2134,7 +2134,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "4"
+                                        "key_code": "3"
                                     }
                                 ],
                                 "type": "basic"
