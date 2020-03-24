@@ -723,14 +723,6 @@
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
                             { "from": {
-                                    "key_code": "comma", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
-                            { "from": {
-                                    "key_code": "period", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
-                            { "from": {
                                     "key_code": "u", 
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
@@ -1072,7 +1064,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "0",
+                                        "key_code": "period",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -1098,7 +1090,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "9",
+                                        "key_code": "comma",
                                         "modifiers": [
                                             "shift"
                                         ]
