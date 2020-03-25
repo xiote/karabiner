@@ -1271,19 +1271,17 @@
                                         }
                                     },
                                     {
-                                        "key_code": "quote",
-                                        "modifiers": [
-                                            "control"
-                                        ]
+                                        "key_code": "escape"
                                     },
                                     {
-                                        "key_code": "quote",
+                                        "key_code": "escape",
                                         "modifiers": [
                                             "control"
                                         ]
                                     }
                                 ],
                                 "type": "basic"
+
                             }
                         ]
                     },
