@@ -324,7 +324,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen"
+                                        "key_code": "5",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
