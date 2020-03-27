@@ -1522,6 +1522,30 @@
                         ]
                     },
                     {
+                        "description": "CommonFN: option+tab to command+tilde",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "grave_accent_and_tilde",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "CommonFN: Special: spacebar+shift+option",
                         "manipulators": [
                             {
