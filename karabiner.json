@@ -747,10 +747,6 @@
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
                             { "from": {
-                                    "key_code": "u", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
-                            { "from": {
                                     "key_code": "p", 
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
@@ -1166,7 +1162,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "equal_sign"
+                                        "key_code": "6",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
