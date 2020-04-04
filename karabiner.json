@@ -1195,8 +1195,50 @@
                         ]
                     },
                     {
-                        "description": "SelectInputSourceABC: command+s, control+[",
+                        "description": "SelectInputSourceABC: command+spacebar, control+[",
                         "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    },
+                                    {
+                                        "type": "input_source_unless",
+                                        "input_sources": [
+                                            {
+                                                "language": "en",
+                                                "input_source_id": "com.apple.keylayout.ABC"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                         "select_input_source": {
+                                            "language": "en",
+                                            "input_source_id": "com.apple.keylayout.ABC"
+                                        }
+                                    },
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
                             {
                                 "conditions": [
                                     {
@@ -1210,7 +1252,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "s",
+                                    "key_code": "spacebar",
                                     "modifiers": {
                                         "mandatory": [
                                             "command"
@@ -1225,7 +1267,7 @@
                                         }
                                     },
                                     {
-                                        "key_code": "s",
+                                        "key_code": "spacebar",
                                         "modifiers": [
                                             "command"
                                         ]
@@ -1323,6 +1365,38 @@
                                 ],
                                 "type": "basic"
 
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Terminal: Special: spacebar",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
@@ -2028,38 +2102,6 @@
                                     },
                                     {
                                         "key_code": "a"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Terminal: Special: spacebar",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.apple\\.Terminal$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "spacebar",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "left_control"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "spacebar",
-                                        "modifiers": [
-                                            "left_command"
-                                        ]
                                     }
                                 ],
                                 "type": "basic"
