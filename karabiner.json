@@ -1195,7 +1195,7 @@
                         ]
                     },
                     {
-                        "description": "SelectInputSourceABC: option+spacebar, control+[",
+                        "description": "SelectInputSourceABC: command+s, control+[",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1210,10 +1210,10 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "spacebar",
+                                    "key_code": "s",
                                     "modifiers": {
                                         "mandatory": [
-                                            "option"
+                                            "command"
                                         ]
                                     }
                                 },
@@ -1225,9 +1225,9 @@
                                         }
                                     },
                                     {
-                                        "key_code": "spacebar",
+                                        "key_code": "s",
                                         "modifiers": [
-                                            "option"
+                                            "command"
                                         ]
                                     }
                                 ],
@@ -1412,30 +1412,6 @@
                                         "key_code": "c",
                                         "modifiers": [
                                             "control"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "CommonFN: option+tab to command+tilde",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "tab",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "grave_accent_and_tilde",
-                                        "modifiers": [
-                                            "command"
                                         ]
                                     }
                                 ],
