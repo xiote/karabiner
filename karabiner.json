@@ -716,14 +716,6 @@
                         "description": "tilde_mode: space /;,.hijklmnopuy",
                         "manipulators": [
                             { "from": {
-                                    "key_code": "o", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
-                            { "from": {
-                                    "key_code": "semicolon", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
-                            { "from": {
                                     "key_code": "open_bracket", 
                                     "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "tilde_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
                             },
@@ -815,10 +807,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "8",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
+                                        "key_code": "1"
                                     }
                                 ],
                                 "type": "basic"
@@ -864,7 +853,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen"
+                                        "key_code": "equal_sign",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -887,7 +879,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "backslash"
+                                        "key_code": "delete_or_backspace"
                                     }
                                 ],
                                 "type": "basic"
@@ -902,32 +894,6 @@
                                 ],
                                 "from": {
                                     "key_code": "n",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "equal_sign",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "tilde_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "p",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -953,6 +919,32 @@
                                     }
                                 ],
                                 "from": {
+                                    "key_code": "p",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "3",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "tilde_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
                                     "key_code": "h",
                                     "modifiers": {
                                         "optional": [
@@ -962,7 +954,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_arrow"
+                                        "key_code": "0"
                                     }
                                 ],
                                 "type": "basic"
@@ -985,10 +977,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "equal_sign",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
+                                        "key_code": "8"
                                     }
                                 ],
                                 "type": "basic"
@@ -1011,7 +1000,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "up_arrow"
+                                        "key_code": "5"
                                     }
                                 ],
                                 "type": "basic"
@@ -1034,7 +1023,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "down_arrow"
+                                        "key_code": "4"
                                     }
                                 ],
                                 "type": "basic"
@@ -1057,10 +1046,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "period",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
+                                        "key_code": "3"
                                     }
                                 ],
                                 "type": "basic"
@@ -1083,10 +1069,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "comma",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
+                                        "key_code": "2"
                                     }
                                 ],
                                 "type": "basic"
@@ -1109,10 +1092,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "0",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
+                                        "key_code": "9"
                                     }
                                 ],
                                 "type": "basic"
@@ -1127,6 +1107,29 @@
                                 ],
                                 "from": {
                                     "key_code": "u",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "7"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "tilde_mode",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "y",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -1152,32 +1155,6 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "y",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "grave_accent_and_tilde",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "tilde_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
                                     "key_code": "l",
                                     "modifiers": {
                                         "optional": [
@@ -1187,7 +1164,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_arrow"
+                                        "key_code": "6"
                                     }
                                 ],
                                 "type": "basic"
