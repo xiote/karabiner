@@ -16,6 +16,59 @@
                 },
                 "rules": [
                     {
+                        "description": "Terminal: command to control",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "left_command",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_control"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "right_command",
+                                    "modifiers": {
+                                        "optional": [
+                                            "caps_lock"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_control"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "backslash_mode: abgqtz",
                         "manipulators": [
                             {
@@ -448,8 +501,76 @@
                         ]
                     },
                     {
-                        "description": "left_shift pressed",
+                        "description": "capslock_mode",
                         "manipulators": [
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "left_shift",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "caps_lock pressed",
+                                            "value": 0
+                                        }
+                                    },
+                                    {
+                                        "key_code": "caps_lock"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "left_shift pressed",
+                                        "value": 1
+                                    },
+                                    {
+                                        "type": "variable_if",
+                                        "name": "caps_lock pressed",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "basic",
+                                "from": {
+                                    "key_code": "left_shift",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "set_variable": {
+                                            "name": "caps_lock pressed",
+                                            "value": 1
+                                        }
+                                    },
+                                    {
+                                        "key_code": "caps_lock"
+                                    }
+                                ],
+                                "conditions": [
+                                    {
+                                        "type": "variable_if",
+                                        "name": "left_shift pressed",
+                                        "value": 1
+                                    },
+                                    {
+                                        "type": "variable_if",
+                                        "name": "caps_lock pressed",
+                                        "value": 0
+                                    }
+                                ]
+                            },
                             {
                                 "type": "basic",
                                 "from": {
@@ -493,7 +614,7 @@
                         ]
                     },
                     {
-                        "description": "capslock_mode",
+                        "description": "input_source_mode",
                         "manipulators": [
                             {
                                 "type": "basic",
@@ -507,13 +628,11 @@
                                 },
                                 "to": [
                                     {
-                                        "set_variable": {
-                                            "name": "caps_lock pressed",
-                                            "value": 0
+                                         "select_input_source": {
+                                            "language": "ko",
+                                            "input_mode_id": "com.apple.inputmethod.Korean.2SetKorean",
+                                            "input_source_id": "com.apple.inputmethod.Korean.2SetKorean"
                                         }
-                                    },
-                                    {
-                                        "key_code": "caps_lock"
                                     }
                                 ],
                                 "conditions": [
@@ -523,9 +642,14 @@
                                         "value": 1
                                     },
                                     {
-                                        "type": "variable_if",
-                                        "name": "caps_lock pressed",
-                                        "value": 1
+                                        "type": "input_source_unless",
+                                        "input_sources": [
+                                            {
+                                                "language": "ko",
+                                                "input_mode_id": "com.apple.inputmethod.Korean.2SetKorean",
+                                                "input_source_id": "com.apple.inputmethod.Korean.2SetKorean"
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -541,13 +665,10 @@
                                 },
                                 "to": [
                                     {
-                                        "set_variable": {
-                                            "name": "caps_lock pressed",
-                                            "value": 1
+                                         "select_input_source": {
+                                            "language": "en",
+                                            "input_source_id": "com.apple.keylayout.ABC"
                                         }
-                                    },
-                                    {
-                                        "key_code": "caps_lock"
                                     }
                                 ],
                                 "conditions": [
@@ -557,9 +678,13 @@
                                         "value": 1
                                     },
                                     {
-                                        "type": "variable_if",
-                                        "name": "caps_lock pressed",
-                                        "value": 0
+                                        "type": "input_source_unless",
+                                        "input_sources": [
+                                            {
+                                                "language": "en",
+                                                "input_source_id": "com.apple.keylayout.ABC"
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -1254,12 +1379,6 @@
                             },
                             {
                                 "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.apple\\.Terminal$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    },
                                     {
                                         "type": "input_source_unless",
                                         "input_sources": [
@@ -2084,78 +2203,6 @@
                                 "type": "basic"
                             }
                         ]
-                    },
-                    {
-                        "description": "Terminal: left_command to left_control",
-                        "manipulators": [
-                            {
-                                "conditions": [
-                                    {
-                                        "bundle_identifiers": [
-                                            "^com\\.apple\\.Terminal$"
-                                        ],
-                                        "type": "frontmost_application_if"
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "left_command",
-                                    "modifiers": {
-                                        "optional": [
-                                            "caps_lock"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_control"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "shift changed",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "period",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "0",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "comma",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "shift"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "9",
-                                        "modifiers": [
-                                            "shift"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
                     }
                 ]
             },
@@ -2294,6 +2341,14 @@
                     },
                     "to": {
                         "key_code": "backslash"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "fn"
+                    },
+                    "to": {
+                        "key_code": "return_or_enter"
                     }
                 }
             ],
