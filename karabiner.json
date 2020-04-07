@@ -1189,15 +1189,6 @@
                                             "^com\\.apple\\.Terminal$"
                                         ],
                                         "type": "frontmost_application_if"
-                                    },
-                                    {
-                                        "type": "input_source_unless",
-                                        "input_sources": [
-                                            {
-                                                "language": "en",
-                                                "input_source_id": "com.apple.keylayout.ABC"
-                                            }
-                                        ]
                                     }
                                 ],
                                 "from": {
@@ -1210,51 +1201,9 @@
                                 },
                                 "to": [
                                     {
-                                         "select_input_source": {
-                                            "language": "en",
-                                            "input_source_id": "com.apple.keylayout.ABC"
-                                        }
-                                    },
-                                    {
                                         "key_code": "spacebar",
                                         "modifiers": [
                                             "left_command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "type": "input_source_unless",
-                                        "input_sources": [
-                                            {
-                                                "language": "en",
-                                                "input_source_id": "com.apple.keylayout.ABC"
-                                            }
-                                        ]
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "spacebar",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "command"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                         "select_input_source": {
-                                            "language": "en",
-                                            "input_source_id": "com.apple.keylayout.ABC"
-                                        }
-                                    },
-                                    {
-                                        "key_code": "spacebar",
-                                        "modifiers": [
-                                            "command"
                                         ]
                                     }
                                 ],
