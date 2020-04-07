@@ -506,7 +506,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "left_shift",
+                                    "key_code": "right_shift",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -527,7 +527,7 @@
                                 "conditions": [
                                     {
                                         "type": "variable_if",
-                                        "name": "left_shift pressed",
+                                        "name": "right_shift pressed",
                                         "value": 1
                                     },
                                     {
@@ -540,7 +540,7 @@
                             {
                                 "type": "basic",
                                 "from": {
-                                    "key_code": "left_shift",
+                                    "key_code": "right_shift",
                                     "modifiers": {
                                         "optional": [
                                             "any"
@@ -561,84 +561,13 @@
                                 "conditions": [
                                     {
                                         "type": "variable_if",
-                                        "name": "left_shift pressed",
+                                        "name": "right_shift pressed",
                                         "value": 1
                                     },
                                     {
                                         "type": "variable_if",
                                         "name": "caps_lock pressed",
                                         "value": 0
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "basic",
-                                "from": {
-                                    "key_code": "left_shift",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "set_variable": {
-                                            "name": "left_shift pressed",
-                                            "value": 1
-                                        }
-                                    },
-                                    {
-                                        "key_code": "left_shift"
-                                    }
-                                ],
-                                "to_delayed_action": {
-                                    "to_if_invoked": [
-                                        {
-                                            "set_variable": {
-                                                "name": "left_shift pressed",
-                                                "value": 0
-                                            }
-                                        }
-                                    ],
-                                    "to_if_canceled": [
-                                        {
-                                            "set_variable": {
-                                                "name": "left_shift pressed",
-                                                "value": 0
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "description": "input_source_mode",
-                        "manipulators": [
-                            {
-                                "type": "basic",
-                                "from": {
-                                    "key_code": "right_shift",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "spacebar",
-                                        "modifiers": [
-                                            "control"
-                                        ]
-                                    }
-                                ],
-                                "conditions": [
-                                    {
-                                        "type": "variable_if",
-                                        "name": "right_shift pressed",
-                                        "value": 1
                                     }
                                 ]
                             },
