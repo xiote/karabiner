@@ -112,7 +112,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "1",
+                                        "key_code": "grave_accent_and_tilde",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -138,7 +138,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "grave_accent_and_tilde",
+                                        "key_code": "7",
                                         "modifiers": [
                                             "shift"
                                         ]
@@ -190,7 +190,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "7",
+                                        "key_code": "1",
                                         "modifiers": [
                                             "shift"
                                         ]
