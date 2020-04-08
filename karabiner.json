@@ -815,7 +815,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "1"
+                                        "key_code": "4"
                                     }
                                 ],
                                 "type": "basic"
@@ -962,7 +962,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "0"
+                                        "key_code": "6"
                                     }
                                 ],
                                 "type": "basic"
@@ -1031,7 +1031,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "4"
+                                        "key_code": "1"
                                     }
                                 ],
                                 "type": "basic"
@@ -1172,7 +1172,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "6"
+                                        "key_code": "0"
                                     }
                                 ],
                                 "type": "basic"
