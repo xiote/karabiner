@@ -1243,10 +1243,13 @@
                                         }
                                     },
                                     {
-                                        "key_code": "escape"
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "control"
+                                        ]
                                     },
                                     {
-                                        "key_code": "quote",
+                                        "key_code": "c",
                                         "modifiers": [
                                             "control"
                                         ]
@@ -1637,7 +1640,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "escape"
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "control"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -1666,7 +1672,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "escape"
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "control"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
