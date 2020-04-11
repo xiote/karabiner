@@ -164,7 +164,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "5",
+                                        "key_code": "equal_sign",
                                         "modifiers": [
                                             "shift"
                                         ]
