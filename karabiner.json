@@ -1897,7 +1897,7 @@
                         ]
                     },
                     {
-                        "description": "Terminal: Special: l",
+                        "description": "Terminal: Special: 7",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -1909,7 +1909,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "l",
+                                    "key_code": "7",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_control"
@@ -1918,7 +1918,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "l",
+                                        "key_code": "7",
                                         "modifiers": [
                                             "command"
                                         ]
