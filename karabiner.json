@@ -1783,7 +1783,7 @@
                                     "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_control"
+                                            "control"
                                         ]
                                     }
                                 },
@@ -1791,7 +1791,7 @@
                                     {
                                         "key_code": "grave_accent_and_tilde",
                                         "modifiers": [
-                                            "left_command"
+                                            "command"
                                         ]
                                     }
                                 ],
@@ -1810,7 +1810,7 @@
                                     "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_control"
+                                            "control"
                                         ]
                                     }
                                 },
@@ -1818,7 +1818,7 @@
                                     {
                                         "key_code": "grave_accent_and_tilde",
                                         "modifiers": [
-                                            "left_command"
+                                            "command"
                                         ]
                                     }
                                 ],
