@@ -28,16 +28,32 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "m",
+                                    "key_code": "left_command",
                                     "modifiers": {
                                         "optional": [
-                                            "left_command"
+                                            "any"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "key_code": "return_or_enter"
+                                        "set_variable": {
+                                            "name": "left_command pressed",
+                                            "value": 1
+                                        }
+                                    }
+                                ],
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "left_command pressed",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "vk_none"
                                     }
                                 ],
                                 "type": "basic"
@@ -49,14 +65,19 @@
                                             "^com\\.microsoft\\.rdc\\.macos$"
                                         ],
                                         "type": "frontmost_application_if"
+                                    },
+                                    {
+                                        "type": "variable_if",
+                                        "name": "left_command pressed",
+                                        "value": 1
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "left_command"
+                                    "key_code": "m"
                                 },
                                 "to": [
                                     {
-                                        "key_code": "vk_none"
+                                        "key_code": "return_or_enter"
                                     }
                                 ],
                                 "type": "basic"
