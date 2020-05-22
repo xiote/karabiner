@@ -140,6 +140,10 @@
                     {
                         "description": "backslash_mode: abgqtz",
                         "manipulators": [
+                            { "from": {
+                                    "key_code": "f", 
+                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
+                            },
                             {
                                 "conditions": [
                                     {
@@ -1618,10 +1622,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "open_bracket",
-                                        "modifiers": [
-                                            "control"
-                                        ]
+                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
@@ -1650,10 +1651,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "open_bracket",
-                                        "modifiers": [
-                                            "control"
-                                        ]
+                                        "key_code": "escape"
                                     }
                                 ],
                                 "type": "basic"
@@ -2037,7 +2035,26 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "q",
+                                    "key_code": "z",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen",
+                                        "modifiers": [
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "a",
                                     "modifiers": {
                                         "mandatory": [
                                             "option"
