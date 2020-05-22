@@ -1379,78 +1379,6 @@
                         ]
                     },
                     {
-                        "description": "CommonFN: option+w to control+w",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "w",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "w",
-                                        "modifiers": [
-                                            "control"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "CommonFN: option+v to control+v",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "v",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "v",
-                                        "modifiers": [
-                                            "control"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "CommonFN: option+c to control+c",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "c",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "c",
-                                        "modifiers": [
-                                            "control"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "CommonFN: Special: spacebar+shift+option",
                         "manipulators": [
                             {
@@ -2098,6 +2026,102 @@
                                         "modifiers": [
                                             "left_command"
                                         ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Special charactor functions",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "q",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Arrow functions",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "b",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_arrow",
+                                        "modifiers": [
+                                            "option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "w",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow",
+                                        "modifiers": [
+                                            "option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_arrow"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "g",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow"
                                     }
                                 ],
                                 "type": "basic"
