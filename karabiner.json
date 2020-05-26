@@ -140,10 +140,6 @@
                     {
                         "description": "backslash_mode: abgqtz",
                         "manipulators": [
-                            { "from": {
-                                    "key_code": "f", 
-                                    "modifiers": { "optional": [ "any" ] } }, "conditions": [ { "name": "backslash_mode", "type": "variable_if", "value": 1 } ], "type": "basic"
-                            },
                             {
                                 "conditions": [
                                     {
@@ -2321,6 +2317,14 @@
                     },
                     "to": {
                         "key_code": "return_or_enter"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "right_shift"
+                    },
+                    "to": {
+                        "key_code": "backslash"
                     }
                 }
             ],
