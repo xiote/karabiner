@@ -727,8 +727,7 @@
                                     "key_code": "grave_accent_and_tilde",
                                     "modifiers": {
                                         "optional": [
-                                            "caps_lock",
-                                            "left_command"
+                                            "caps_lock"
                                         ]
                                     }
                                 },
@@ -1882,7 +1881,34 @@
                                     "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_control"
+                                            "control"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "control"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "comma",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "command"
                                         ]
                                     }
                                 },
