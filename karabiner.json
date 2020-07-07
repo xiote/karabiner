@@ -1940,14 +1940,6 @@
                 },
                 {
                     "from": {
-                        "key_code": "fn"
-                    },
-                    "to": {
-                        "key_code": "return_or_enter"
-                    }
-                },
-                {
-                    "from": {
                         "key_code": "right_shift"
                     },
                     "to": {
