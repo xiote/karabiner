@@ -953,7 +953,7 @@
                         ]
                     },
                     {
-                        "description": "CommandFN: n to down_arrow, p to up_arrow, b to left_arrow, f to right_arrow, h to delete, e to end",
+                        "description": "CommandFN: n to down_arrow, p to up_arrow, b to left_arrow, f to right_arrow, h to delete, e to end, j to down_arrow, k to up_arrow",
                         "manipulators": [
                             {
                                 "conditions": [],
@@ -1048,6 +1048,40 @@
                                 "to": [
                                     {
                                         "key_code": "delete_or_backspace"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [],
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "up_arrow"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [],
+                                "from": {
+                                    "key_code": "j",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_command"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "down_arrow"
                                     }
                                 ],
                                 "type": "basic"
