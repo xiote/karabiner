@@ -138,12 +138,12 @@
                         ]
                     },
                     {
-                        "description": "backslash_mode: abgqtz",
+                        "description": "l_mode: abgqtz",
                         "manipulators": [
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -166,7 +166,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -192,7 +192,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -218,7 +218,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -244,7 +244,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -270,7 +270,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -293,7 +293,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -319,7 +319,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -345,7 +345,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -371,7 +371,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -394,7 +394,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -420,7 +420,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -446,7 +446,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -472,7 +472,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -495,7 +495,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -518,7 +518,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -544,7 +544,7 @@
                             {
                                 "conditions": [
                                     {
-                                        "name": "backslash_mode",
+                                        "name": "l_mode",
                                         "type": "variable_if",
                                         "value": 1
                                     }
@@ -683,11 +683,11 @@
                         ]
                     },
                     {
-                        "description": "backslash_mode",
+                        "description": "l_mode",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "backslash",
+                                    "key_code": "l",
                                     "modifiers": {
                                         "optional": [
                                             "caps_lock"
@@ -697,7 +697,7 @@
                                 "to": [
                                     {
                                         "set_variable": {
-                                            "name": "backslash_mode",
+                                            "name": "l_mode",
                                             "value": 1
                                         }
                                     }
@@ -705,14 +705,14 @@
                                 "to_after_key_up": [
                                     {
                                         "set_variable": {
-                                            "name": "backslash_mode",
+                                            "name": "l_mode",
                                             "value": 0
                                         }
                                     }
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "backslash"
+                                        "key_code": "l"
                                     }
                                 ],
                                 "type": "basic"
